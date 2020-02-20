@@ -369,10 +369,18 @@
       padding: 0;
       box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
       width: auto;
+      @media screen and (min-width: 580px) {
+        max-width: 60%;
+      }
+
+      @media screen and (min-width: 850px) {
+        max-width: 40%;
+      }
 
       .wrap {
         display: flex;
         position: relative;
+
       }
 
       .content {

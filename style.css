@@ -333,6 +333,16 @@
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   width: auto;
 }
+@media screen and (min-width: 580px) {
+  .info .popover__wrapper .popover__content {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 850px) {
+  .info .popover__wrapper .popover__content {
+    max-width: 40%;
+  }
+}
 .info .popover__wrapper .popover__content .wrap {
   display: flex;
   position: relative;
